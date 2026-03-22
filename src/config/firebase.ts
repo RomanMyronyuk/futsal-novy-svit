@@ -4,13 +4,12 @@ import { getAuth } from 'firebase/auth';
 
 // Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCfPO-haIfxOPeLZEcuTRwpAxDWWOflOsc",
-  authDomain: "futsal-league-67ce9.firebaseapp.com",
-  projectId: "futsal-league-67ce9",
-  storageBucket: "futsal-league-67ce9.firebasestorage.app",
-  messagingSenderId: "610277007826",
-  appId: "1:610277007826:web:10c9b17f7229186c76e80b",
-  measurementId: "G-SB1MCZNKSM"
+  apiKey: "AIzaSyCH74IpDNkNnYTt2oqTXvQ5HmzAgWb_c74",
+  authDomain: "futsal-novy-svit.firebaseapp.com",
+  projectId: "futsal-novy-svit",
+  storageBucket: "futsal-novy-svit.firebasestorage.app",
+  messagingSenderId: "545992571458",
+  appId: "1:545992571458:web:6526154ec9c87a20544bdb"
 };
 
 // Initialize Firebase
