@@ -10,7 +10,7 @@ const copy404Plugin = () => ({
     const distPath = path.resolve(__dirname, 'dist');
     const indexPath = path.join(distPath, 'index.html');
     const notFoundPath = path.join(distPath, '404.html');
-    
+
     if (fs.existsSync(indexPath)) {
       fs.copyFileSync(indexPath, notFoundPath);
       console.log('✅ Created 404.html for GitHub Pages SPA routing');
@@ -20,7 +20,7 @@ const copy404Plugin = () => ({
 
 export default defineConfig({
   plugins: [react(), copy404Plugin()],
-  base: '/futsal-league/',
+  base: '/futsal-novy-svit/',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
