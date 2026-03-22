@@ -127,7 +127,9 @@ const AppContent: React.FC = () => {
 
   return (
     <>
-      <BrowserRouter basename="/futsal-league">
+      <BrowserRouter
+        basename="/futsal-novy-svit/"
+      >
         <Navigation />
         <Routes>
           <Route path="/" element={<GameDaysList />} />
