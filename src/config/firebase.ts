@@ -1,6 +1,6 @@
-import { initializeApp } from 'firebase/app';
-import { getFirestore } from 'firebase/firestore';
-import { getAuth } from 'firebase/auth';
+import { initializeApp } from "firebase/app";
+import { getFirestore } from "firebase/firestore";
+import { getAuth } from "firebase/auth";
 
 // Firebase configuration
 const firebaseConfig = {
@@ -9,7 +9,8 @@ const firebaseConfig = {
   projectId: "futsal-novy-svit",
   storageBucket: "futsal-novy-svit.firebasestorage.app",
   messagingSenderId: "545992571458",
-  appId: "1:545992571458:web:6526154ec9c87a20544bdb"
+  appId: "1:545992571458:web:a00e106844897e1e544bdb",
+  measurementId: "G-Y1V25MSCBB",
 };
 
 // Initialize Firebase
